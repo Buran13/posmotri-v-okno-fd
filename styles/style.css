@@ -151,14 +151,14 @@ ol {
 }
 
 .content__video-card-description {
-  line-clamp: 4;
-  text-overflow: ellipsis;
-  overflow: hidden;
   margin-top: 2px;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
-  /*РЕШИТЬ ПРОБЛЕМУ С ПЕРПОЛНЕНИЕМ ТЕКСТА*/
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 
 .content__video-card-thumbnail {
